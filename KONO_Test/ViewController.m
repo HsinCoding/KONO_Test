@@ -10,6 +10,7 @@
 
 @interface ViewController () {
     int number;
+    NSString *string;
 }
 
 @end
