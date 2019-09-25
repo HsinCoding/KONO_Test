@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6567E934233A62AE004D5FDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6567E933233A62AE004D5FDC /* AppDelegate.m */; };
+		6567E937233A62AE004D5FDC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6567E936233A62AE004D5FDC /* SceneDelegate.m */; };
+		6567E93A233A62AE004D5FDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6567E939233A62AE004D5FDC /* ViewController.m */; };
+		6567E93D233A62AE004D5FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6567E93B233A62AE004D5FDC /* Main.storyboard */; };
+		6567E940233A62AE004D5FDC /* KONO_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6567E93E233A62AE004D5FDC /* KONO_Test.xcdatamodeld */; };
+		6567E942233A62AF004D5FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6567E941233A62AF004D5FDC /* Assets.xcassets */; };
+		6567E945233A62AF004D5FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6567E943233A62AF004D5FDC /* LaunchScreen.storyboard */; };
+		6567E948233A62AF004D5FDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6567E947233A62AF004D5FDC /* main.m */; };
+		6567E952233A62AF004D5FDC /* KONO_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6567E951233A62AF004D5FDC /* KONO_TestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6567E94E233A62AF004D5FDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6567E927233A62AE004D5FDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6567E92E233A62AE004D5FDC;
+			remoteInfo = KONO_Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6567E92F233A62AE004D5FDC /* KONO_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KONO_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6567E932233A62AE004D5FDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6567E933233A62AE004D5FDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6567E935233A62AE004D5FDC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6567E936233A62AE004D5FDC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6567E938233A62AE004D5FDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6567E939233A62AE004D5FDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6567E93C233A62AE004D5FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6567E93F233A62AE004D5FDC /* KONO_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KONO_Test.xcdatamodel; sourceTree = "<group>"; };
+		6567E941233A62AF004D5FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6567E944233A62AF004D5FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6567E946233A62AF004D5FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6567E947233A62AF004D5FDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6567E94D233A62AF004D5FDC /* KONO_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KONO_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6567E951233A62AF004D5FDC /* KONO_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KONO_TestTests.m; sourceTree = "<group>"; };
+		6567E953233A62AF004D5FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6567E92C233A62AE004D5FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6567E94A233A62AF004D5FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6567E926233A62AE004D5FDC = {
+			isa = PBXGroup;
+			children = (
+				6567E931233A62AE004D5FDC /* KONO_Test */,
+				6567E950233A62AF004D5FDC /* KONO_TestTests */,
+				6567E930233A62AE004D5FDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6567E930233A62AE004D5FDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6567E92F233A62AE004D5FDC /* KONO_Test.app */,
+				6567E94D233A62AF004D5FDC /* KONO_TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6567E931233A62AE004D5FDC /* KONO_Test */ = {
+			isa = PBXGroup;
+			children = (
+				6567E932233A62AE004D5FDC /* AppDelegate.h */,
+				6567E933233A62AE004D5FDC /* AppDelegate.m */,
+				6567E935233A62AE004D5FDC /* SceneDelegate.h */,
+				6567E936233A62AE004D5FDC /* SceneDelegate.m */,
+				6567E938233A62AE004D5FDC /* ViewController.h */,
+				6567E939233A62AE004D5FDC /* ViewController.m */,
+				6567E93B233A62AE004D5FDC /* Main.storyboard */,
+				6567E941233A62AF004D5FDC /* Assets.xcassets */,
+				6567E943233A62AF004D5FDC /* LaunchScreen.storyboard */,
+				6567E946233A62AF004D5FDC /* Info.plist */,
+				6567E947233A62AF004D5FDC /* main.m */,
+				6567E93E233A62AE004D5FDC /* KONO_Test.xcdatamodeld */,
+			);
+			path = KONO_Test;
+			sourceTree = "<group>";
+		};
+		6567E950233A62AF004D5FDC /* KONO_TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6567E951233A62AF004D5FDC /* KONO_TestTests.m */,
+				6567E953233A62AF004D5FDC /* Info.plist */,
+			);
+			path = KONO_TestTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6567E92E233A62AE004D5FDC /* KONO_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6567E956233A62AF004D5FDC /* Build configuration list for PBXNativeTarget "KONO_Test" */;
+			buildPhases = (
+				6567E92B233A62AE004D5FDC /* Sources */,
+				6567E92C233A62AE004D5FDC /* Frameworks */,
+				6567E92D233A62AE004D5FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KONO_Test;
+			productName = KONO_Test;
+			productReference = 6567E92F233A62AE004D5FDC /* KONO_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6567E94C233A62AF004D5FDC /* KONO_TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6567E959233A62AF004D5FDC /* Build configuration list for PBXNativeTarget "KONO_TestTests" */;
+			buildPhases = (
+				6567E949233A62AF004D5FDC /* Sources */,
+				6567E94A233A62AF004D5FDC /* Frameworks */,
+				6567E94B233A62AF004D5FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6567E94F233A62AF004D5FDC /* PBXTargetDependency */,
+			);
+			name = KONO_TestTests;
+			productName = KONO_TestTests;
+			productReference = 6567E94D233A62AF004D5FDC /* KONO_TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6567E927233A62AE004D5FDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "CI-Starly.Chen";
+				TargetAttributes = {
+					6567E92E233A62AE004D5FDC = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					6567E94C233A62AF004D5FDC = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 6567E92E233A62AE004D5FDC;
+					};
+				};
+			};
+			buildConfigurationList = 6567E92A233A62AE004D5FDC /* Build configuration list for PBXProject "KONO_Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6567E926233A62AE004D5FDC;
+			productRefGroup = 6567E930233A62AE004D5FDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6567E92E233A62AE004D5FDC /* KONO_Test */,
+				6567E94C233A62AF004D5FDC /* KONO_TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6567E92D233A62AE004D5FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6567E945233A62AF004D5FDC /* LaunchScreen.storyboard in Resources */,
+				6567E942233A62AF004D5FDC /* Assets.xcassets in Resources */,
+				6567E93D233A62AE004D5FDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6567E94B233A62AF004D5FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6567E92B233A62AE004D5FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6567E948233A62AF004D5FDC /* main.m in Sources */,
+				6567E940233A62AE004D5FDC /* KONO_Test.xcdatamodeld in Sources */,
+				6567E93A233A62AE004D5FDC /* ViewController.m in Sources */,
+				6567E934233A62AE004D5FDC /* AppDelegate.m in Sources */,
+				6567E937233A62AE004D5FDC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6567E949233A62AF004D5FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6567E952233A62AF004D5FDC /* KONO_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6567E94F233A62AF004D5FDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6567E92E233A62AE004D5FDC /* KONO_Test */;
+			targetProxy = 6567E94E233A62AF004D5FDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6567E93B233A62AE004D5FDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6567E93C233A62AE004D5FDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6567E943233A62AF004D5FDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6567E944233A62AF004D5FDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6567E954233A62AF004D5FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6567E955233A62AF004D5FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6567E957233A62AF004D5FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KONO_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hsin-chen.KONO-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6567E958233A62AF004D5FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KONO_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hsin-chen.KONO-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6567E95A233A62AF004D5FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KONO_TestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hsin-chen.KONO-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KONO_Test.app/KONO_Test";
+			};
+			name = Debug;
+		};
+		6567E95B233A62AF004D5FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KONO_TestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hsin-chen.KONO-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KONO_Test.app/KONO_Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6567E92A233A62AE004D5FDC /* Build configuration list for PBXProject "KONO_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6567E954233A62AF004D5FDC /* Debug */,
+				6567E955233A62AF004D5FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6567E956233A62AF004D5FDC /* Build configuration list for PBXNativeTarget "KONO_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6567E957233A62AF004D5FDC /* Debug */,
+				6567E958233A62AF004D5FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6567E959233A62AF004D5FDC /* Build configuration list for PBXNativeTarget "KONO_TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6567E95A233A62AF004D5FDC /* Debug */,
+				6567E95B233A62AF004D5FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6567E93E233A62AE004D5FDC /* KONO_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6567E93F233A62AE004D5FDC /* KONO_Test.xcdatamodel */,
+			);
+			currentVersion = 6567E93F233A62AE004D5FDC /* KONO_Test.xcdatamodel */;
+			path = KONO_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6567E927233A62AE004D5FDC /* Project object */;
+}
